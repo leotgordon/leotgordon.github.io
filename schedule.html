@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="schedule.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header class="container" style="width:100%;">
+        <h1 class="col-sm-4"><a class="link" href="index.html">BHS Ultimate Frisbee</a></h1>
+        <nav class="col-sm-8 text-right">
+            <ul>
+                <li><a href="roster.html">roster</a></li>
+                <li><a href="schedule.html">schedule &amp results</a></li>
+                <li><a href="">photo &amp video</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">playbook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="jumbotron">
+    </section>
+    <div class="container">
+        <h2 class="col-sm-12 h2">Schedule:</h2>
+    </div>
+    <section class="container schedule">
+        <table class="col-sm-12">
+            <thead>
+                <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5<br>&#64;Miramonte High<br>Miramonte<br>EC Huc</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <div class="container">
+        <h2 class="col-sm-12 h2">Results:</h2>
+    </div>
+    <section class="container results">
+        <p class="col-sm-12">Please enter the scores from a high coup game:</p>
+        <table class="col-sm-12">
+            <tr>
+                <th>Name of Opponent</th>
+                <th>Coup Points</th>
+                <th>Away Points</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="opponent"></td>
+                <td><input type="number" id="pointsFor"></td>
+                <td><input type="number" id="pointsAgainst"></td>
+            </tr>
+        </table>
+        <button class="col-sm-12" onclick="enter()">Enter Data</button>
+        <table class="col-sm-12">
+            <tr>
+                <th>Name of Opponent</th>
+                <th>Coup Points</th>
+                <th>Away Points</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td id="1opponent">null</td>
+                <td id="1pointsFor">null</td>
+                <td id="1pointsAgainst">null</td>
+                <td id="1wl">null</td>
+            </tr>
+            <tr>
+                <td id="2opponent"></td>
+                <td id="2pointsFor"></td>
+                <td id="2pointsAgainst"></td>
+                <td id="2wl"></td>
+            </tr>
+            <tr>
+                <td id="3opponent"></td>
+                <td id="3pointsFor"></td>
+                <td id="3pointsAgainst"></td>
+                <td id="3wl"></td>
+            </tr>
+            <tr>
+                <td id="4opponent"></td>
+                <td id="4pointsFor"></td>
+                <td id="4pointsAgainst"></td>
+                <td id="4wl"></td>
+            </tr>
+            <tr>
+                <td id="5opponent"></td>
+                <td id="5pointsFor"></td>
+                <td id="5pointsAgainst"></td>
+                <td id="5wl"></td>
+            </tr>
+            <tr>
+                <td id="6opponent"></td>
+                <td id="6pointsFor"></td>
+                <td id="6pointsAgainst"></td>
+                <td id="6wl"></td>
+            </tr>
+            <tr>
+                <td id="7opponent"></td>
+                <td id="7pointsFor"></td>
+                <td id="7pointsAgainst"></td>
+                <td id="7wl"></td>
+            </tr>
+            <tr>
+                <td id="8opponent"></td>
+                <td id="8pointsFor"></td>
+                <td id="8pointsAgainst"></td>
+                <td id="8wl"></td>
+            </tr>
+            <tr>
+                <td id="9opponent"></td>
+                <td id="9pointsFor"></td>
+                <td id="9pointsAgainst"></td>
+                <td id="9wl"></td>
+            </tr>
+        </table>
+    </section>
+    <footer class="container" id="footer" style="width:100%;margin:50px 0px 20px 0px;">
+        <p class="col-sm-12">&copy Leo Gordon 2017</p>
+    </footer>
+</div>
+</body>
+</html>

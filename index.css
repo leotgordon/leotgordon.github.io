@@ -1,0 +1,219 @@
+#wrapper {
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    margin: auto;
+
+}
+
+
+
+header {
+
+    padding: 10px 0px 10px 30px;
+
+    position: fixed;
+
+    background-color: white;
+
+    z-index: 1;
+
+    border-bottom: 1px solid black;
+
+}
+
+
+
+header h1 {
+
+    font-size: 2em;
+
+}
+
+
+
+.link {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+
+
+.link:hover {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+
+
+header nav {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+}
+
+
+
+nav ul li {
+
+    list-style: none;
+
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    margin-right: 10px;
+
+    background-color: gainsboro;
+
+    margin-top: 17px;
+
+}
+
+
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: black;
+
+    display: inline-block;
+
+}
+
+
+
+nav ul li:hover {
+
+    text-decoration: none;
+
+    background-color: #aaaaaa;
+
+}
+
+
+
+.h2 {
+
+    padding-bottom: 20px;
+
+}
+
+
+
+.jumbotron {
+
+    background-image: url("http://www.berkeleyside.com/wp-content/uploads/2016/06/HS_Westerns_2016_JBK_0478.JPG_20160605_1-16-29_PM-ZF-8227-79469-1-002-720x383.jpeg");
+
+    height: 400px;
+
+    background-size: cover;
+
+    padding-top: 80px;
+
+}
+
+
+
+ul {
+
+    padding-left: 0px;
+
+}
+
+
+
+table {
+
+    border-collapse: collapse;
+
+}
+
+
+
+.schedule {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.schedule th, .schedule td {
+
+    border: 1px solid black;
+
+    width: 10%;
+
+}
+
+
+
+.schedule td {
+
+    height: 100px;
+
+    vertical-align: top;
+
+}
+
+
+
+.results tr {
+
+    border-bottom: 1px solid black;
+
+    border-top: 1px solid black;
+
+}
+
+
+
+th, td {
+
+    padding: 15px;
+
+}
+
+
+
+th {
+
+    font-weight: bold;
+
+    color: black;
+
+    font-size: 1.1em;
+
+    text-decoration: underline;
+
+}
+
+
+
+#footer p {
+
+    text-align: center;
+
+}
+
+
+
+#footer {
+
+    height: 60px;
+
+    border-top: 1px solid black;
+
+    padding-top: 30px;
+
+}
