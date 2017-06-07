@@ -138,8 +138,9 @@ table {
 
 }
 
-table {
+.rtable {
     border-collapse: separate;
+    
     empty-cells: hide;
 }
 
@@ -168,16 +169,6 @@ table {
     height: 100px;
 
     vertical-align: top;
-
-}
-
-
-
-.results tr {
-
-    border-bottom: 1px solid black;
-
-    border-top: 1px solid black;
 
 }
 
