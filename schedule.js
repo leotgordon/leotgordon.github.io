@@ -37,5 +37,6 @@ function enter() {
     } else {
         document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
+    document.getElementById(gameNumber).style.display = "block";
     gameNumber += 1;
 }

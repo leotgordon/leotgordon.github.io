@@ -139,9 +139,7 @@ table {
 }
 
 .rtable {
-    border-collapse: separate;
-    
-    empty-cells: hide;
+    display: none;
 }
 
 
