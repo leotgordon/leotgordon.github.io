@@ -26,7 +26,7 @@ header {
   display: flex;
 }
 
-.gallery img {
+img {
   max-width:50%;
   max-height:50%;
   height: auto;
