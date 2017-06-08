@@ -22,6 +22,9 @@ header {
 
 }
 
+.gallery {
+  display: flex;
+}
 
 
 header h1 {
