@@ -27,8 +27,8 @@ header {
 }
 
 img {
-  max-width:50%;
-  max-height:50%;
+  max-width:15%;
+  max-height:15%;
   height: auto;
   width:auto;
 }
@@ -146,11 +146,6 @@ table {
     border-collapse: collapse;
 
 }
-
-.row {
-    display: none;
-}
-
 
 
 .schedule {

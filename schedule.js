@@ -37,6 +37,5 @@ function enter() {
     } else {
         document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
-    document.getElementById(gameNumber).style.display = "inline";
     gameNumber += 1;
 }
