@@ -28,7 +28,7 @@ header {
 
 img {
   max-width:300px;
-  height: auto;
+  max-height: 175px;
 }
 
 header h1 {
