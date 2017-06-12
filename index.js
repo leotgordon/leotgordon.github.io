@@ -1,3 +1,0 @@
-function newPlayer() {
-	var getElementById("")
-}
