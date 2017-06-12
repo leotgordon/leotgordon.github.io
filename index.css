@@ -27,10 +27,8 @@ header {
 }
 
 img {
-  max-width:15%;
-  max-height:15%;
+  max-width:200px;
   height: auto;
-  width: auto;
 }
 
 header h1 {
