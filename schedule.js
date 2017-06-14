@@ -11,8 +11,6 @@ function enter() {
     var pointsFor = parseInt(document.getElementById("pointsFor").value);
     var pointsAgainst = parseInt(document.getElementById("pointsAgainst").value);
     var wl = "";
-    totalFor += pointsFor;
-    totalAgainst += pointsAgainst;
     if(pointsFor > pointsAgainst) {
       wl = "Win";
     }
