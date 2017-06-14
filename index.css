@@ -27,8 +27,10 @@ header {
 }
 
 img {
-  max-width:300px;
-  max-height: 175px;
+  max-width:15%;
+  max-height:15%;
+  height: auto;
+  width: auto;
 }
 
 header h1 {
