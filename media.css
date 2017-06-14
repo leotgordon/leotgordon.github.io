@@ -6,7 +6,7 @@
   margin: auto;
 }
 
-.mySlides {
+.slide {
     display: none;
 }
 
@@ -41,7 +41,7 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+} 
 
 .dot {
   cursor:pointer;
