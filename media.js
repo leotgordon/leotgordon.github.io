@@ -1,4 +1,4 @@
-function load() {
+document.onload = function load() {
   document.getElementById("1").style.diplay = "block";
   document.getElementById("dot1").className += " active";
 }
