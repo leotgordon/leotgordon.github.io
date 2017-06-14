@@ -5,6 +5,7 @@
     <title>BHS Ultimate</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="media.css">
 </head>
 <body>
 <div id="wrapper">
@@ -23,22 +24,74 @@
     <div class="container">
         <h2 class="col-sm-12 h2">Roster</h2>
     </div>
-    <section class="container">
-        <section class="col-sm-12 gallery">
-            <img id="1" src="images/coupfam.jpg"/>
-            <img id="2" src="images/leo.jpg"/>
-            <img id="3" src="images/lauren.jpg"/>
-            <img id="4" src="images/7ontheline.jpg"/>
-            <img id="5" src="images/sam.jpg"/>
-            <img id="6" src="images/seth.jpg"/>
-            <img id="7" src="images/god.jpg"/>
-            <img id="8" src="images/locoupsqua.jpg"/>
-            <img id="9" src="images/fish.jpg"/>
-            <img id="10" src="images/allyn.jpg"/>
-        </section>
-        <p>Choose a photo to enlarge</p>
-        <input type="number" id="photoNum">
-        <button onclick="enlarge()">Enlarge</button>
+    <section class="container box-slideshow">
+        <div class="slide">
+            <img src="7ontheline.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="slide">
+            <img src="god.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="slide">
+            <img src="allyn.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="slide">
+            <img src="leo.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="slide">
+            <img src="lauren.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="slide">
+            <img src="coupfam.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="slide">
+            <img src="sam.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="slide">
+            <img src="seth.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="slide">
+            <img src="locoupsqua.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="slide">
+            <img src="fish.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+        <span class="dot" onclick="currentSlide(7)"></span> 
+        <span class="dot" onclick="currentSlide(8)"></span> 
+        <span class="dot" onclick="currentSlide(9)"></span> 
+        <span class="dot" onclick="currentSlide(10)"></span> 
+    </div>
     </section>
     <script src="media.js"></script>
     <footer class="container" id="footer" style="width:100%;margin:50px 0px 20px 0px;">
