@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="media.css">
 </head>
-<body>
+<body onload="load()">
 <div id="wrapper">
     <header class="container" style="width:100%;">
         <h1 class="col-sm-4"><a class="link" href="index.html">BHS Ultimate Frisbee</a></h1>
@@ -25,72 +25,69 @@
         <h2 class="col-sm-12 h2">Roster</h2>
     </div>
     <section class="container box-slideshow">
-        <div class="slide">
+        <div class="slide" id="1">
             <img src="images/7ontheline.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
+            <div class="text">Seven on the line</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="2">
             <img src="images/god.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
+            <div class="text">Luca Spycher takes flight</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="3">
             <img src="images/allyn.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text">Allyn suzuki catches the disk in the endzone</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="4">
             <img src="images/leo.jpg" style="width:100%">
             <div class="text">Caption Text</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="5">
             <img src="images/lauren.jpg" style="width:100%">
             <div class="text">Caption Two</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="6">
             <img src="images/coupfam.jpg" style="width:100%">
             <div class="text">Caption Three</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="7">
             <img src="images/sam.jpg" style="width:100%">
             <div class="text">Caption Text</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="8">
             <img src="images/seth.jpg" style="width:100%">
             <div class="text">Caption Two</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="9">
             <img src="images/locoupsqua.jpg" style="width:100%">
             <div class="text">Caption Three</div>
         </div>
 
-        <div class="slide">
+        <div class="slide" id="10">
             <img src="images/fish.jpg" style="width:100%">
             <div class="text">Caption Three</div>
         </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
 
     <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-        <span class="dot" onclick="currentSlide(4)"></span> 
-        <span class="dot" onclick="currentSlide(5)"></span> 
-        <span class="dot" onclick="currentSlide(6)"></span> 
-        <span class="dot" onclick="currentSlide(7)"></span> 
-        <span class="dot" onclick="currentSlide(8)"></span> 
-        <span class="dot" onclick="currentSlide(9)"></span> 
-        <span class="dot" onclick="currentSlide(10)"></span> 
+        <span class="dot" id="dot1" onclick="currentSlide(1)"></span> 
+        <span class="dot" id="dot2" onclick="currentSlide(2)"></span> 
+        <span class="dot" id="dot3" onclick="currentSlide(3)"></span> 
+        <span class="dot" id="dot4" onclick="currentSlide(4)"></span> 
+        <span class="dot" id="dot5" onclick="currentSlide(5)"></span> 
+        <span class="dot" id="dot6" onclick="currentSlide(6)"></span> 
+        <span class="dot" id="dot7" onclick="currentSlide(7)"></span> 
+        <span class="dot" id="dot8" onclick="currentSlide(8)"></span> 
+        <span class="dot" id="dot9" onclick="currentSlide(9)"></span> 
+        <span class="dot" id="dot10" onclick="currentSlide(10)"></span> 
     </div>
     </section>
     <script src="media.js"></script>

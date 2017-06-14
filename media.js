@@ -1,5 +1,8 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+function load() {
+  document.getElementById("1").style.diplay = "block";
+  document.getElementById("dot1").className += " active";
+}
+
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
