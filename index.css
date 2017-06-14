@@ -26,13 +26,6 @@ header {
   display: flex;
 }
 
-img {
-  max-width:15%;
-  max-height:15%;
-  height: auto;
-  width: auto;
-}
-
 header h1 {
 
     font-size: 2em;
