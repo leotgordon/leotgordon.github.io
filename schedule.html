@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="roster.html">roster</a></li>
                 <li><a href="schedule.html">schedule &amp results</a></li>
-                <li><a href="media.html">photo &amp video</a></li>
+                <li><a href="media.html">photos</a></li>
             </ul>
         </nav>
     </header>
@@ -105,7 +105,7 @@
                 <td><input type="number" id="pointsAgainst"></td>
             </tr>
         </table>
-        <button class="col-sm-2" onclick="enter()">Enter Data</button>
+        <button class="col-sm-2" onclick="enter(); enter2();">Enter Data</button>
         <table class="col-sm-12">
             <tr>
                 <th>Name of Opponent</th>
@@ -166,6 +166,20 @@
                 <td id="9pointsFor"></td>
                 <td id="9pointsAgainst"></td>
                 <td id="9wl"></td>
+            </tr>
+        </table>
+        <table class="col-sm-12">
+            <tr>
+                <th></th>
+                <th>Total For</th>
+                <th>Total Against</th>
+                <th></th>
+            </tr>
+            <tr id="">
+                <td></td>
+                <td id="totalFor"></td>
+                <td id="totalAgainst"></td>
+                <td></td>
             </tr>
         </table>
     </section>

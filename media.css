@@ -6,9 +6,6 @@
   margin: auto;
 }
 
-.slide {
-    display: none;
-}
 
 .prev, .next {
   cursor: pointer;

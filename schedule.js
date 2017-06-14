@@ -40,3 +40,11 @@ function enter() {
     gameNumber += 1;
 }
 
+function enter2() {
+    var pointsFor = parseInt(document.getElementById("pointsFor").value);
+    var pointsAgainst = parseInt(document.getElementById("pointsAgainst").value);
+    totalFor += pointsFor;
+    totalAgainst += pointsAgainst;    
+    document.getElementById("totalFor").innerHTML = totalFor;
+    document.getElementById("totalAgainst").innerHTML = totalAgainst;
+}
