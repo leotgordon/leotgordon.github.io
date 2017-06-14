@@ -39,3 +39,4 @@ function enter() {
     }
     gameNumber += 1;
 }
+
